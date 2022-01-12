@@ -119,6 +119,54 @@ hr {
     margin-left: 25px;
 }
 
+/*---My Graphic Designs---*/
+@media only screen and (max-width: 700px) {
+  .formatting {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .formatting {
+    width: 100%;
+  }
+}
+
+div.designs {
+  border: 1px solid #ccc;
+}
+
+div.designs:hover {
+  border: 1px solid #777;
+}
+
+div.designs img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.formatting {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+.tableFormat:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /*---CONNECT---*/
 .larger {
   max-height: 100px;
